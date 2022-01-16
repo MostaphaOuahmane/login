@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+*{
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+}
+body {
+    background-color:  #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+.register {
+    width: 1000px;
+    height: 850px;
+    background-color: white;
+    border: solid black 2px;
+    margin: 50px auto;
+    
+}
+.logo {
+    width: 50%;
+    height: 850px;
+    /* background-color: #28e7bb; */
+    background-color: white;
+    position: relative;
+    float: left;
+   
+}
+.log-img img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top:25%;
+    left: 25%;
+}
+.form{
+    width: 50%;
+    height: 850px;
+    background-color: #31425a;
+    float: left;
+    position: relative;
+}
+form{
+    width: 90%;
+    height:  600px;
+    padding: 0px 45px;
+    background-color: transparent;
+    position: absolute;
+    top: 125px;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+form label {
+    text-transform: uppercase;
+}
+form h1 {
+    margin-top: 30px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    color: white;
+}
+form p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #1fd5b9;
+}
+input {
+    width: 100%;
+    padding: 9px 3px;
+    margin-bottom: 15px;
+    border: 2px solid #99b0bc;
+    font-family: 'Roboto', sans-serif;
+    color: #99b0bc;
+    background: transparent;
+
+}
+.term {
+    text-align: left;
+    margin-top: 15px;
+}
+.term input {
+    width: auto;
+}
+.term p {
+    color: #99b0bc;
+    display: inline;
+    font-size: 13px;
+}
+input[type=submit]{
+    background-color: #1fd5b9;
+    color: white;
+    border: none;
+    height: 45px;
+    margin-top: 35px;
+}
+form a {
+    text-decoration: none;
+    padding: 5px 15px;
+    border-bottom: solid 2px #99b0bc;
+    color: #99b0bc;
+}
